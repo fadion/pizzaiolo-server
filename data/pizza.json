@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Pepperoni",
+        "summary": "Tomato sauce, basil, mozzarella cheese and plenty of pepperoni.",
+        "category": [1],
+        "price": 899,
+        "photo": "pepperoni.png"
+    },
+    {
+        "id": 2,
+        "name": "4 Formaggi",
+        "summary": "An explosion of cheesy taste: mozzarella, fontina, gorgonzola and parmigiano on a white pizza.",
+        "category": [1],
+        "price": 1099,
+        "photo": "quatro-formaggi.png"
+    },
+    {
+        "id": 3,
+        "name": "Margherita",
+        "summary": "Classic, simple and delicious pizza with tomato sauce and mozzarella cheese.",
+        "category": [1],
+        "price": 699,
+        "photo": "margherita.png"
+    },
+    {
+        "id": 4,
+        "name": "Focaccia",
+        "summary": "The pizza before there was pizza. Simple, yet delightful.",
+        "category": [5],
+        "price": 1299,
+        "photo": "focaccia.png"
+
+    },
+    {
+        "id": 5,
+        "name": "Mushroom Feast",
+        "summary": "Delicious combination of chantarelles and maitake over tomato sauce.",
+        "category": [2],
+        "price": 899,
+        "photo": "mushroom-feast.png"
+    },
+    {
+        "id": 6,
+        "name": "Seafood Supreme",
+        "summary": "Fantastic mix of shrimps, anchovies, squid and clams on a white pizza.",
+        "category": [3],
+        "price": 1299,
+        "photo": "seafood-supreme.png"
+    },
+    {
+        "id": 7,
+        "name": "Pomodorini",
+        "summary": "Simple and tasty. Tomato sauce, mozzarella, parmigiano and organic Italian pomodirini.",
+        "category": [1],
+        "price": 699,
+        "photo": "pomodorini.png"
+    },
+    {
+        "id": 8,
+        "name": "White & Truffle",
+        "summary": "Luxurious black truffle on a white pie, mozzarella and parmigiano.",
+        "category": [4, 5],
+        "price": 2399,
+        "photo": "white-truffle.png"
+    },
+    {
+        "id": 9,
+        "name": "4 Stagioni",
+        "summary": "Discover a different taste in every slice.",
+        "category": [1],
+        "price": 999,
+        "photo": "quatro-stagioni.png"
+    }
+]

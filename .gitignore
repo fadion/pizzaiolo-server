@@ -1,0 +1,19 @@
+# OSX
+.DS_Store
+
+# Dependencies
+node_modules
+
+# npm cache directory
+.npm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock

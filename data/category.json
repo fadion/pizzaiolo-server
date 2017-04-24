@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Classic"
+    },
+    {
+        "id": 2,
+        "name": "Vegetarian"
+    },
+    {
+        "id": 3,
+        "name": "Seafood"
+    },
+    {
+        "id": 4,
+        "name": "White"
+    },
+    {
+        "id": 5,
+        "name": "Exotic"
+    }
+]

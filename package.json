@@ -1,0 +1,15 @@
+{
+  "name": "pizzaiolo-server",
+  "version": "1.0.0",
+  "description": "Pizzaiolo Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Fadion Dashi",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^4.3.0"
+  }
+}

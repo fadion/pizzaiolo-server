@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "Margherita",
+        "subtitle": "Basic, but rich and tasty",
+        "price_was": 599,
+        "price": 499,
+        "photo": "featured.jpg",
+        "position": 1
+    },
+    {
+        "id": 2,
+        "title": "Pizza Selection",
+        "subtitle": "Classic ingredients over an artisan pie",
+        "photo": "pizza-selection.jpg",
+        "position": 2
+    },
+    {
+        "id": 3,
+        "title": "Make Your Own",
+        "subtitle": "Choose the base and toppings you like",
+        "photo": "pizza-maker.jpg",
+        "position": 3
+    }
+]
