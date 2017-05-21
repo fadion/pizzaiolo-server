@@ -1,6 +1,6 @@
 # Pizzaiolo Server
 
-A simple server to provide data over REST to the Pizzaiolo app. Built with [Node.js](https://nodejs.org/en/) and [Restify](http://restify.com/), using some static JSON files as data.
+A very simple server to provide data to the Pizzaiolo app. Built with [Node.js](https://nodejs.org/en/) and [Restify](http://restify.com/), using some static JSON files as data.
 
 ## Installation
 
@@ -9,13 +9,13 @@ If you're planning to test the Pizzaiolo app, you'll need to have the server run
 1. Clone the repository
 
 ```bash
-$ git clone [repo-name-placeholder]
+$ git clone git@github.com:fadion/pizzaiolo-server.git
 ```
 
 2. Install dependencies
 
 ```bash
-$ cd path/to/project
+$ cd pizzaiolo-server
 $ npm install
 ```
 
