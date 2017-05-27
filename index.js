@@ -16,7 +16,7 @@ var data = {
 /* <ROUTES> */
 
 app.get('/pizza', function(req, res) {
-    res.send({pizza: data.pizza});
+    res.send(data.pizza);
 });
 
 app.get('/pizza/:id', function(req, res) {
@@ -24,11 +24,11 @@ app.get('/pizza/:id', function(req, res) {
         return item.id == req.params.id;
     });
 
-    item.length ? res.send({pizza: item}) : res.send(404, new Error('No pizza found'));
+    item.length ? res.send(item) : res.send(404, new Error('No pizza found'));
 });
 
 app.get('/categories', function(req, res) {
-    res.send({category: data.category});
+    res.send(data.category);
 });
 
 app.get('/categories/:id', function(req, res) {
@@ -36,11 +36,11 @@ app.get('/categories/:id', function(req, res) {
         return item.id == req.params.id;
     });
 
-    item.length ? res.send({category: item}) : res.send(404, new Error('No category found'));
+    item.length ? res.send(item) : res.send(404, new Error('No category found'));
 });
 
 app.get('/featured', function(req, res) {
-    res.send({featured: data.featured});
+    res.send(data.featured);
 });
 
 app.get(/\/photos\/?.*/, restify.serveStatic({
